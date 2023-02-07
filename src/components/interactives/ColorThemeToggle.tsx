@@ -2,7 +2,7 @@ import SunIcon from "../../assets/icon-sun.svg";
 import MoonIcon from "../../assets/icon-moon.svg";
 import { useColorTheme } from "../../hooks/useColorTheme";
 
-export const ColorSchemeToggle = () => {
+export const ColorThemeToggle = () => {
   const { colorTheme, setTheme } = useColorTheme();
   const isDarkMode = colorTheme === "dark" ? true : false;
 
