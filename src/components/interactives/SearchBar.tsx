@@ -10,13 +10,13 @@ export const SearchBar = ({ changeUsername, isError }: Props) => {
   const [username, setUsername] = useState("");
   return (
     <form
-      className="flex w-full items-center justify-between gap-2 rounded-lg bg-white py-2 pl-2 pr-2 shadow-lg dark:bg-custom-navi-blue-900 sm:pl-6"
+      className="flex w-full items-center justify-between gap-2 rounded-xl bg-white py-2 pl-2 pr-2 shadow-lg dark:bg-custom-navi-blue-900 sm:pl-6"
       onSubmit={(e) => {
         e.preventDefault();
         changeUsername(username);
       }}
     >
-      <div className="flex flex-1 items-center gap-2 sm:gap-6">
+      <div className="flex flex-1 items-center gap-3 sm:gap-6">
         <img
           className="h-5 w-5 sm:h-6 sm:w-6"
           src={SearchIcon}
