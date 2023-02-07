@@ -26,7 +26,7 @@ export const App = () => {
   if (!user) return null;
 
   return (
-    <div className="mx-auto my-6 w-11/12 sm:my-32 lg:w-[800px]">
+    <div className="absolute top-1/3 left-1/2 mx-auto w-11/12 -translate-x-1/2 -translate-y-1/3 lg:w-[800px]">
       <div className="mb-8 flex items-center justify-between">
         <h1 className="text-custom-h1 font-bold dark:text-white">devfinder</h1>
         <ColorThemeToggle />
