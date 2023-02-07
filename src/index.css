@@ -7,3 +7,9 @@
 html {
   font-family: "Space Mono", monospace;
 }
+
+html,
+body,
+#root {
+  @apply h-full overflow-hidden bg-custom-gray-100 dark:bg-custom-gray-900;
+}
